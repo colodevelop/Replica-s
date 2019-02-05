@@ -9,10 +9,13 @@
     crossorigin="anonymous">
 
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/animations.css">
   <title>Spotify Website</title>
 </head>
 
 <body>
+
+    <div id="top"></div>
 
   <!-- Navbar -->
   <nav class="navbar">
@@ -34,8 +37,8 @@
 
   <header id="showcase">
     <div class="showcase-content">
-      <h1 class="l-heading">Music for everyone.</h1>
-      <p class="lead">Spotify is now free on mobile, tablet and computer.
+      <h1 class="l-heading bounce-in-top ">Music for everyone<span class="bounce-top">.</span></h1>
+      <p class="lead ">Spotify is now free on mobile, tablet and computer.
         listen to the right music, wherever you are.
       </p>
       <a href="#" class="btn">Try for free</a>
@@ -51,17 +54,17 @@
     <span class="line"></span>
 
     <div class="items">
-      <div class="item">
-        <i class="fas fa-volume-up"></i>
-        <h1>Millions of Songs</h1>
+      <div class="item slit-in-vertical">
+        <i class="fas fa-volume-up "></i>
+        <h1 class="">Millions of Songs</h1>
         <p>There are millions of songs on Spotify</p>
       </div>
-      <div class="item">
+      <div class="item slit-in-vertical">
           <i class="fas fa-water"></i>
         <h1>HD Music</h1>
         <p>Listen to music as if you were listening Live.</p>
       </div>
-      <div class="item">
+      <div class="item slit-in-vertical">
           <i class="fas fa-tablet-alt"></i>
         <h1>Stream Everywhere</h1>
         <p>Stream music on your smarthphone, tablet or computer</p>
@@ -89,6 +92,7 @@
         <h1>Discover</h1>
         <p>Enjoy new music every Monday with your own vibe</p>
       </div>
+    
     </div>
     </div>
   </section>
