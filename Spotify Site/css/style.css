@@ -174,29 +174,40 @@ font-size: 1.75rem;
 /* Section: Kanye */
 
 #kanye {
-  height: 60vh;
+  height: 75vh;
   background: #00C770;
   color: white;
   margin: 0 2.5rem;
+}
+
+#kanye .kanyeH1 {
+  font-size: 3rem;
+  padding-top: 7rem;
+  padding-left: 4.5rem;
+
 }
 
 
 #kanye .texts{
   display: flex;
   flex-direction: column;
-  padding: 3rem;
+  padding: 4.5rem;
 
 }
 
 #kanye .texts .text {
   display: flex;
   flex-direction: column;
+  margin-bottom: 2rem;
   
 }
 
 #kanye .texts .text h1 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: bold;
 }
-
+/* 
+#kanye .texts .text p {
+margin-bottom: 2rem;
+} */
 
