@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding: 0;
+}
+
+html, body {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.4;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin: 0.75rem 0;
+}
+
+
+/* Utility Classes */
+
+/* .container {
+  max-width: 1400px;
+  margin:auto;
+  padding: 0 2rem;
+  overflow: hidden;
+} */
+
+.text-center {
+  text-align: center;
+}
+
+.text-primary {
+  color: #1BB16B;
+}
+
+.l-heading {
+  font-size: 6rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.1;
+}
+
+.m-heading {
+  font-size: 2rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.1;
+}
+
+.lead {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+
+
+/* Navbar */
+.navbar .logo{
+display: flex;
+justify-content: space-between;
+padding: 1rem;
+font-size: 1.75rem;
+}
+
+.navbar .logo h1 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+} 
+
+.grow:hover
+{
+        transform: scale(1.1);
+        
+}
+
+.navbar ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.navbar ul li {
+  padding-right: 4rem;
+}
+
+.navbar ul li:hover {
+  color: #1BB16B;
+}
+
+
+
+/* Showcase */
+
+#showcase {
+  background: #333 url('../img/concert-public.jpg')
+  no-repeat center center/cover;
+  height: 85vh;
+  color: white;
+}
+
+#showcase .showcase-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  position: relative; 
+  top:0;
+  background-color: rgba(0,0,0,0.6);
+}
+
+#showcase .showcase-content p {
+  width: 90vh;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 1.25rem;
+  color: white;
+  background:#1BB16B;
+  padding: 13px 45px;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: rgb(36, 209, 128);
+}
+
+
+/* Section: What's on Spot */
+
+.what .items {
+  display: flex;
+  padding:1rem;
+}
+
+.what h2{
+  text-align: center;
+  padding-top: 2rem;
+  border-bottom: 3px solid #00C770;
+  margin: 0 82vh;
+  padding-bottom: 2px;
+}
+
+.what .items .item {
+ flex: 1;
+ text-align: center;
+ padding: 7rem;
+
+
+}
+
+.what .items .item h1{
+  color: #00C770;
+  font-size: 2rem;
+}
+
+.what .items .item i {
+  font-size: 5rem;
+  padding-bottom: 2rem;
+}
+.what .items .item p {
+  font-size: 1.4rem;
+}
+
+
+
+/* Section: Kanye */
+
+#kanye {
+  height: 60vh;
+  background: #00C770;
+  color: white;
+  margin: 0 2.5rem;
+}
+
+
+#kanye .texts{
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+
+}
+
+#kanye .texts .text {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+#kanye .texts .text h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+
