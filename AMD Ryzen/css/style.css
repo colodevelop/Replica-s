@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding: 0;
+}
+
+html, body {
+  font-family: 'Noto Sans', sans-serif;
+  line-height: 1.4;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin: 0.75rem 0;
+}
+
+
+/* Utility Classes */
+
+.check {
+  border: 1px solid red;
+}
+
+.container {
+  max-width: 1100px;
+  margin:auto;
+  padding: 0 2rem;
+  overflow: hidden;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-primary {
+  color: #282219;
+}
+
+.bg-light {
+  background: #FFFFFF;
+  color: #333;
+}
+
+.bg-dark {
+  background: ##282219;
+  color: white;
+}
+
+.bg-primary {
+  background: #7ab436;
+  color: white;
+}
+
+.l-heading {
+  font-size: 4rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.1;
+}
+
+.m-heading {
+  font-size: 1.5rem;
+  /* margin-bottom: 0.75rem; */
+  /* line-height: 1.1; */
+}
+
+.lead {
+  font-size: 1.1rem;
+}
+
+li {
+ 
+  list-style: none;
+}
+
+
+
+/* Navbar */
+
+  .header{
+    display: flex;
+    justify-content: space-between;
+    background: black;
+    padding: 1rem;
+
+  }
+
+  .logo {
+    display: flex;
+  }
+  
+
+.header ul {
+    
+    display: flex;
+    align-self: center;
+    color: white;
+    margin-top: 0.4rem;
+    margin-left: 4rem;
+   
+  }
+
+  .header ul li {
+    text-transform: capitalize;
+  }
+
+  .header ul a{
+    padding-right: 1.8rem;
+    color:white;
+    align-self: center;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  .header ul a:hover{
+    background: white;
+    color:black;
+    padding: 0.65rem;
+    border-radius: 5px;
+  }
+
+  .header .search-bar {
+    
+    align-self: center;
+  }
+
+
+  .header .search-bar .search{
+    align-self: center;
+    padding: 0.6rem;
+    border: 1px solid white;
+    background: black ;
+    width: 25vh
+  }
+
+  .header .search-bar #search-logo{
+    
+    color: white;
+    position: relative;
+    z-index: 1;
+    left: -25px;
+    top: 1px;
+    cursor:pointer;
+    width: 0;
+}
+
+
+
+/* Section: Social Media */
+
+.social-media{
+  display: flex;
+  justify-content: space-between;
+  padding:1rem;
+}
+
+.social-media h1{
+  padding-top: 1.6rem;
+  padding-left: 2rem;
+}
+
+.social-media .social-icons p {
+  padding-left: 0.6rem;
+}
+
+.social-media .social-list{
+  display: flex;
+  font-size: 2rem;
+}
+
+.social-media .social-list li {
+padding-right: 1rem;
+}
+
+.social-media .social-list li:hover {
+  transform: scale(1.2);
+}
+
+/* Section: Showcase  */
+
+
+
+
+.showcase {
+  background: url('../img/198373-ryzen-division2-game-bundle-background-1920x600_0.jpg') no-repeat center center/cover;
+  height: 60vh;
+  color: #fff;
+}
+
+.showcase-content{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100%;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.showcase-content h1 {
+  font-size: 2rem;
+}
+
+.btn {
+  color: white;
+  display: inline-block;
+  font-weight: bold;
+  padding: 10px 15px;
+  font-size: 16px;
+  text-decoration: none;
+  background: transparent;
+  min-width: 200px;
+  max-width: 100%;
+  margin-top: 30px;
+  border: 2px solid white;
+}
+
+.btn:hover {
+  border: 2px solid black;
+  background: rgb(0, 0, 0, 0.7);
+}
+
+/* Whitespace */
+
+.whitespace {
+  height: 7vh;
+  background:#E1E1E2;
+}
+
+/* Section: Youtube */
+
+.youtube {
+  background: url('../img/102426-pinnacle-video-background-light-glow-1920x800_0.jpg') no-repeat center center/cover;
+  height: 45vh;
+}
+
+.youtube .youtube-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  padding: 2rem;
+}
